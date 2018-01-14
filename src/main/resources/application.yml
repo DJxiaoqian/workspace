@@ -1,0 +1,14 @@
+server:
+  port: 18092
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
